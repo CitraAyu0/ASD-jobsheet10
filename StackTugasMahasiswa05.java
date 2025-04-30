@@ -9,6 +9,10 @@ public class StackTugasMahasiswa05 {
         top = -1;
     }
 
+    public int jumlahTugas() {
+        return top + 1;
+    }    
+
     public boolean isFull() {
         if (top == size-1) {
             return true;
@@ -52,6 +56,16 @@ public class StackTugasMahasiswa05 {
             System.out.println("Stack kosong! Tidak ada tugas yang dikumpulkan");
             return null;
         }
+    }
+
+    public Mahasiswa05 bottom() {
+        if (!isEmpty()) {
+            return stack[0];
+        } else {
+            System.out.println("Stack kosong! tidak ada tugas yang dikumpulkan");
+            return null;
+        }
+        
     }
 
     public void print() {
