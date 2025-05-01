@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "MainSurat05",
+            "request": "launch",
+            "mainClass": "MainSurat05",
+            "projectName": "ASD-jobsheet10_ec008d11"
+        },
+        {
+            "type": "java",
             "name": "Current File",
             "request": "launch",
             "mainClass": "${file}"
